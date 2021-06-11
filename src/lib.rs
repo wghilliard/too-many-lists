@@ -1,3 +1,5 @@
+mod first;
+
 #[cfg(test)]
 mod tests {
     #[test]
@@ -5,5 +7,3 @@ mod tests {
         assert_eq!(2 + 2, 4);
     }
 }
-
-mod first;
